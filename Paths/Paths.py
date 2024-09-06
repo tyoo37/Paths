@@ -40,10 +40,25 @@ class filepaths():
         self.w51n_b3_almaimf_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/w51n_B3_conv.fits'
         self.w51n_b6_almaimf_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/w51n_B6_conv.fits'
 
+
+        
+
         
         #---------------------------------------- ALMA-IMF W51 ----------------------------------------
 
         self.w51n_b6_almaimf = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/W51-IRS2_B6_uid___A001_X1296_X187_continuum_merged_12M_robust0_selfcal9_finaliter.image.tt0.pbcor.fits'
+
+        self.w51n_b6_almaimf_local = '/Users/dbahck37/W51data/alma_imf/W51-IRS2_B6_uid___A001_X1296_X187_continuum_merged_12M_robust0_selfcal9_finaliter.image.tt0.pbcor.fits'
+        self.w51n_b3_almaimf_local = '/Users/dbahck37/W51data/alma_imf/W51-IRS2_B3_uid___A001_X1296_X18f_continuum_merged_12M_robust0_selfcal4_finaliter.image.tt0.pbcor.fits'
+        self.w51e_b6_almaimf_local = '/Users/dbahck37/W51data/alma_imf/W51-E_B6_uid___A001_X1296_X213_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits'
+        self.w51e_b3_almaimf_local = '/Users/dbahck37/W51data/alma_imf/W51-E_B3_uid___A001_X1296_X10b_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits'
+
+        self.w51e_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothed/W51-E-getsf.cat'
+        self.w51n_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothedW51-IRS2-getsf.cat'
+
+        self.w51e_almaimf_coretemp = '/home/t.yoo/W51-E_core_temperature_smooth_catalog.dat'
+        self.w51n_almaimf_coretemp = '/home/t.yoo/W51-IRS2_core_temperature_smooth_catalog.dat'
+
 
         #---------------------------------------- W51 background noises ----------------------------------------
         self.w51e_b6_background = '/home/t.yoo/w51/catalogue/dendrogram/background_noise_w51e_b6_pb.dat'
@@ -56,6 +71,33 @@ class filepaths():
         self.w51e_dendro_matched_catalog = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51e_matched.fits'
         self.w51n_dendro_matched_catalog = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51n_matched.fits'
 
+        #---------------------------------------- W51 flux ----------------------------------------
+        self.w51e_b6_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_test.fits'
+        self.w51e_b3_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b3_test.fits'
+        self.w51n_b6_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b6_test.fits'
+        self.w51n_b3_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b3_test.fits'
+        self.w51e_b6_conv_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_conv_test.fits'
+        self.w51n_b6_conv_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b6_conv_test.fits'
+
+
+        self.w51e_b6_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51e_b6_test.fits'
+        self.w51e_b3_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51e_b3_test.fits'
+        self.w51n_b6_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51n_b6_test.fits'
+        self.w51n_b3_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51n_b3_test.fits'
+        self.w51e_b6_conv_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51e_b6_conv_test.fits'
+        self.w51n_b6_conv_flux_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/photometry/w51n_b6_conv_test.fits'
+
+        #---------------------------------------- W51 noise region ----------------------------------------
+        self.w51e_b6_noise_region = '/orange/adamginsburg/w51/TaehwaYoo/w51e_b6_std_sky_new.reg'
+        self.w51e_b3_noise_region = '/orange/adamginsburg/w51/TaehwaYoo/w51e_b3_std_sky_new.reg'
+        self.w51n_b6_noise_region = '/orange/adamginsburg/w51/TaehwaYoo/w51n_b6_std_sky_new.reg'
+        self.w51n_b3_noise_region = '/orange/adamginsburg/w51/TaehwaYoo/w51n_b3_std_sky_new.reg'
+
+        self.w51e_b6_noise_region_local = '/Users/dbahck37/w51data/w51e_b6_std_sky_new.reg'
+        self.w51e_b3_noise_region_local = '/Users/dbahck37/w51data/w51e_b3_std_sky_new.reg'
+        self.w51n_b6_noise_region_local = '/Users/dbahck37/w51data/w51n_b6_std_sky_new.reg'
+        self.w51n_b3_noise_region_local = '/Users/dbahck37/w51data/w51n_b3_std_sky_new.reg'
+
         #---------------------------------------- localdir ----------------------------------------
         self.localdir = '/Users/dbahck37/w51data'
         self.w51e_b6_cont_local = self.localdir + '/w51e2.spw0thru19.14500.robust0.thr0.15mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor.fits'
@@ -67,4 +109,3 @@ class filepaths():
 
         self.w51e_dendro_matched_catalog_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/dendrogram/dendro_w51e_matched.fits'
         self.w51n_dendro_matched_catalog_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/dendrogram/dendro_w51n_matched.fits'
-
