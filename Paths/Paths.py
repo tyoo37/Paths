@@ -58,8 +58,8 @@ class filepaths():
 
         self.w51e_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothed/W51-E-getsf.cat'
         self.w51n_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothedW51-IRS2-getsf.cat'
-        self.w51e_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/catalog/getsf-smoothed/W51-E-getsf.cat'
-        self.w51n_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/catalog/getsf-smoothed/W51-IRS2-getsf.cat'
+        self.w51e_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-E-getsf.cat'
+        self.w51n_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-IRS2-getsf.cat'
         self.w51e_almaimf_coretemp = '/home/t.yoo/W51-E_core_temperature_smooth_catalog.dat'
         self.w51n_almaimf_coretemp = '/home/t.yoo/W51-IRS2_core_temperature_smooth_catalog.dat'
 
