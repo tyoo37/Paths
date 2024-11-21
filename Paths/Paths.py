@@ -115,7 +115,7 @@ class filepaths():
         self.w51n_dendro_matched_catalog_local = '/Users/dbahck37/w51_jupyter/w51/catalogue/dendrogram/dendro_w51n_matched.fits'
 
         #---------------------------------------- W51 JWST MIRI ----------------------------------------
-        self.jwstdir = '/orange/adamginsburg/w51/TaehwaYoo/jwst_w51'
+        self.jwstdir = '/orange/adamginsburg/w51/TaehwaYoo/jwst_w51/'
         self.w51_F560W = self.jwstdir + 'F560W/pipeline/jw06151-o002_t001_miri_f560w_i2d.fits'
         self.w51_F770W = self.jwstdir + 'F770W/pipeline/jw06151-o002_t001_miri_f770w_i2d.fits'
         self.w51_F1000W = self.jwstdir + 'F1000W/pipeline/jw06151-o002_t001_miri_f1000w_i2d.fits'
