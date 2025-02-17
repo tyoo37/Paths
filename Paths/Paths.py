@@ -72,15 +72,20 @@ class filepaths():
 
 
         #---------------------------------------- W51 catalogs ----------------------------------------
-        self.w51e_dendro_matched_catalog = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51e_matched.fits'
+        self.w51e_dendro_matched_catalog_old = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51e_matched.fits'
+        self.w51e_dendro_matched_catalog = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51e_matched_new.fits'
         self.w51n_dendro_matched_catalog = '/home/t.yoo/w51/catalogue/dendrogram/dendro_w51n_matched.fits'
 
         #---------------------------------------- W51 flux ----------------------------------------
-        self.w51e_b6_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_test.fits'
-        self.w51e_b3_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b3_test.fits'
+        self.w51e_b6_flux_old = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_test.fits'
+        self.w51e_b3_flux_old = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b3_test.fits'
+        self.w51e_b6_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_test_new.fits'
+        self.w51e_b3_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b3_test_new.fits'
+        
         self.w51n_b6_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b6_test.fits'
         self.w51n_b3_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b3_test.fits'
-        self.w51e_b6_conv_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_conv_test.fits'
+        self.w51e_b6_conv_flux_old = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_conv_test.fits'
+        self.w51e_b6_conv_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51e_b6_conv_test_new.fits'
         self.w51n_b6_conv_flux = '/home/t.yoo/w51/catalogue/photometry/flux_new/w51n_b6_conv_test.fits'
 
 
