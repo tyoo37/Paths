@@ -57,7 +57,7 @@ class filepaths():
         self.w51e_b3_almaimf_local = '/Users/dbahck37/W51data/alma_imf/W51-E_B3_uid___A001_X1296_X10b_continuum_merged_12M_robust0_selfcal7_finaliter.image.tt0.pbcor.fits'
 
         self.w51e_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothed/W51-E-getsf.cat'
-        self.w51n_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothedW51-IRS2-getsf.cat'
+        self.w51n_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothed/W51-IRS2-getsf.cat'
         self.w51e_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-E-getsf.cat'
         self.w51n_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-IRS2-getsf.cat'
         self.w51e_almaimf_coretemp = '/home/t.yoo/W51-E_core_temperature_smooth_catalog.dat'
@@ -70,11 +70,16 @@ class filepaths():
         self.w51n_b6_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b6_pb.dat'
         self.w51n_b3_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b3_pb.dat'
 
+        self.w51e_B3_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b3_visual_inspection_merge_new.fits' #changed after 2025/04/29
+        self.w51e_B6_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b6_visual_inspection2_new.fits'
+        self.w51n_B3_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b3_visual_inspection.fits'
+        self.w51n_B6_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b6_visual_inspection.fits'
+
 
         #---------------------------------------- W51 catalogs ----------------------------------------
         self.w51e_dendro_matched_catalog_old = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched.fits'
         self.w51e_dendro_matched_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched_new.fits'
-        self.w51n_dendro_matched_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_matched.fits'
+        self.w51n_dendro_matched_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_matched_new.fits'
 
         #---------------------------------------- W51 catalogs (trimmed for shared use) ----------------------------------------
         self.w51e_dendro_matched_catalog1_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51e_matched1.fits'
