@@ -17,17 +17,19 @@ class filepaths():
         #---------------------------------------- W51 B6 (new) ----------------------------------------
         self.w51e_b6_cont = '/orange/adamginsburg/w51/TaehwaYoo/w51e2.spw0thru19.14500.robust0.thr0.15mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor.fits'
         self.w51n_b6_cont = '/orange/adamginsburg/w51/TaehwaYoo/w51n.spw0thru19.14500.robust0.thr0.1mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor.fits'
-
         #---------------------------------------- W51 B3 ----------------------------------------
         self.W51b3 = '/orange/adamginsburg/w51/TaehwaYoo/2017.1.00293.S_W51_B3_LB/may2021_successful_imaging/'
         self.w51n_b3_tt0 = self.W51b3+'w51n.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor.fits'
         self.w51n_b3_tt1 = self.W51dir +'w51n.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt1.pbcor.fits'
         self.w51n_b3_alpha = self.W51dir +'w51n.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.alpha.pbcor.fits'
-
+        self.w51n_b3_pb = self.W51dir +'w51n.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.pb.tt0'
+        self.w51n_b3_remove_reg = '/orange/adamginsburg/w51/TaehwaYoo/regions/w51n_b3_remove.reg' 
 
         self.w51e_b3_tt0 = self.W51b3+'w51e2.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt0.pbcor.fits'
         self.w51e_b3_tt1 = self.W51dir+'w51e2.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.image.tt1.pbcor.fits'
         self.w51e_b3_alpha = self.W51dir+'w51e2.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.alpha.pbcor.fits'
+        self.w51e_b3_pb = self.W51dir +'w51e2.spw0thru19.14500.robust0.thr0.075mJy.mfs.I.startmod.selfcal7.pb.tt0'
+        self.w51e_b3_remove_reg = '/orange/adamginsburg/w51/TaehwaYoo/regions/w51e_b3_remove.reg' 
 
 
         #---------------------------------------- image convolved to the common beam size ----------------------------------------
@@ -60,47 +62,47 @@ class filepaths():
         self.w51n_almaimf_catalog_local = '/Users/dbahck37/W51data/alma_imf/catalog/getsf-smoothed/W51-IRS2-getsf.cat'
         self.w51e_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-E-getsf.cat'
         self.w51n_almaimf_catalog = '/orange/adamginsburg/w51/TaehwaYoo/ALMA_IMF/catalogs/getsf-smoothed/W51-IRS2-getsf.cat'
-        self.w51e_almaimf_coretemp = '/home/t.yoo/W51-E_core_temperature_smooth_catalog.dat'
-        self.w51n_almaimf_coretemp = '/home/t.yoo/W51-IRS2_core_temperature_smooth_catalog.dat'
+        self.w51e_almaimf_coretemp = '/red/adamginsburg/t.yoo/w51/W51-E_core_temperature_smooth_catalog.dat'
+        self.w51n_almaimf_coretemp = '/red/adamginsburg/t.yoo/w51/W51-IRS2_core_temperature_smooth_catalog.dat'
 
 
         #---------------------------------------- W51 background noises ----------------------------------------
-        self.w51e_b6_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51e_b6_pb.dat'
-        self.w51e_b3_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51e_b3_pb.dat'
-        self.w51n_b6_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b6_pb.dat'
-        self.w51n_b3_background = '/home/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b3_pb.dat'
+        self.w51e_b6_background = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/background_noise_w51e_b6_pb.dat'
+        self.w51e_b3_background = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/background_noise_w51e_b3_pb.dat'
+        self.w51n_b6_background = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b6_pb.dat'
+        self.w51n_b3_background = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/background_noise_w51n_b3_pb.dat'
 
-        self.w51e_B3_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b3_visual_inspection_merge_new.fits' #changed after 2025/04/29
-        self.w51e_B6_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b6_visual_inspection2_new.fits'
-        self.w51n_B3_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b3_visual_inspection.fits'
-        self.w51n_B6_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b6_visual_inspection.fits'
+        self.w51e_B3_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b3_visual_inspection_merge_new.fits' #changed after 2025/04/29
+        self.w51e_B6_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_b6_visual_inspection2_new.fits'
+        self.w51n_B3_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b3_visual_inspection.fits'
+        self.w51n_B6_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_b6_visual_inspection.fits'
 
 
         #---------------------------------------- W51 catalogs ----------------------------------------
-        self.w51e_dendro_matched_catalog_old = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched.fits'
-        self.w51e_dendro_matched_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched_new.fits'
-        self.w51n_dendro_matched_catalog = '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_matched_new.fits'
+        self.w51e_dendro_matched_catalog_old = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched.fits'
+        self.w51e_dendro_matched_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_matched_new.fits'
+        self.w51n_dendro_matched_catalog = '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_matched_new.fits'
 
         # catalogs with flux file and dendro file combined
-        self.w51e_dendro_master =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_master.fits'
-        self.w51n_dendro_master =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_master.fits'
+        self.w51e_dendro_master =  '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_master.fits'
+        self.w51n_dendro_master =  '/red/adamginsburg/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_master.fits'
         #---------------------------------------- W51 catalogs (trimmed for shared use) ----------------------------------------
-        self.w51e_dendro_matched_catalog1_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51e_matched1.fits'
-        self.w51e_dendro_matched_catalog2_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51e_matched2.fits'
-        self.w51n_dendro_matched_catalog1_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51n_matched1.fits'
-        self.w51n_dendro_matched_catalog2_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51n_matched2.fits'
+        self.w51e_dendro_matched_catalog1_trimmed = '/red/adamginsburg/t.yoo/w51/w51_frag/dendro_w51e_matched1.fits'
+        self.w51e_dendro_matched_catalog2_trimmed = '/red/adamginsburg/t.yoo/w51/w51_frag/dendro_w51e_matched2.fits'
+        self.w51n_dendro_matched_catalog1_trimmed = '/red/adamginsburg/t.yoo/w51/w51_frag/dendro_w51n_matched1.fits'
+        self.w51n_dendro_matched_catalog2_trimmed = '/red/adamginsburg/t.yoo/w51/w51_frag/dendro_w51n_matched2.fits'
 
         #---------------------------------------- W51 flux ----------------------------------------
-        self.w51e_b6_flux_old = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_test.fits'
-        self.w51e_b3_flux_old = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b3_test.fits'
-        self.w51e_b6_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_test.fits'
-        self.w51e_b3_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b3_test.fits'
+        self.w51e_b6_flux_old = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_test.fits'
+        self.w51e_b3_flux_old = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b3_test.fits'
+        self.w51e_b6_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_test.fits'
+        self.w51e_b3_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b3_test.fits'
         
-        self.w51n_b6_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_test.fits'
-        self.w51n_b3_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b3_test.fits'
-        self.w51e_b6_conv_flux_old = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
-        self.w51e_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
-        self.w51n_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_conv_test.fits'
+        self.w51n_b6_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_test.fits'
+        self.w51n_b3_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b3_test.fits'
+        self.w51e_b6_conv_flux_old = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
+        self.w51e_b6_conv_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
+        self.w51n_b6_conv_flux = '/red/adamginsburg/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_conv_test.fits'
 
 
         self.w51e_b6_flux_local = '/Users/dbahck37/w51_jupyter/w51/w51_frag/photometry/w51e_b6_test.fits'
