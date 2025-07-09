@@ -38,8 +38,8 @@ class filepaths():
         #self.w51conv = '/orange/adamginsburg/w51/TaehwaYoo/convolved_new/'
         #self.w51e_b6_conv = self.w51conv + 'w51e_new_B6_conv.fits'
         #self.w51n_b6_conv = self.w51conv + 'w51n_new_B6_conv.fits'
-        self.w51e_b6_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51e_b6_imaging_2025/w51e_b6_conv.fits'
-        self.w51n_b6_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51n_b6_imaging_2025/w51n_b6_conv.fits'
+        self.w51e_b6_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51e_b6_imaging_2025/w51e_B6_conv.fits'
+        self.w51n_b6_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51n_b6_imaging_2025/w51n_B6_conv.fits'
         
         self.w51e_b6_almaimf_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/w51e_B6_conv.fits'
         self.w51e_b3_almaimf_conv = '/orange/adamginsburg/w51/TaehwaYoo/w51_alma_imf/w51e_B3_conv.fits'
