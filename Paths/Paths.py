@@ -113,8 +113,8 @@ class filepaths():
         self.w51n_b6_conv_flux = '/home/t.yoo/w51/w51_frag_new/flux/tables/w51n_conv_b6.fits'
 
         self.w51e_b6_conv_flux_old = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
-        self.w51e_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
-        self.w51n_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_conv_test.fits'
+        #self.w51e_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51e_b6_conv_test.fits'
+        #self.w51n_b6_conv_flux = '/home/t.yoo/w51/w51_frag/photometry/flux_new/w51n_b6_conv_test.fits'
 
 
         self.w51e_b6_flux_local = '/Users/dbahck37/w51_jupyter/w51/w51_frag/photometry/w51e_b6_test.fits'
