@@ -89,8 +89,10 @@ class filepaths():
         self.w51e_dendro_matched_catalog_new = '/home/t.yoo/w51/w51_frag_new/dendro/tables/dendro_w51e_matched_final.fits'
         self.w51n_dendro_matched_catalog_new = '/home/t.yoo/w51/w51_frag_new/dendro/tables/dendro_w51n_matched.fits'
         # catalogs with flux file and dendro file combined
-        self.w51e_dendro_master =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_master.fits'
-        self.w51n_dendro_master =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_master.fits'
+        self.w51e_dendro_master_old =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51e_master.fits'
+        self.w51n_dendro_master_old =  '/home/t.yoo/w51/w51_frag/dendrogram/dendro_w51n_master.fits'
+        self.w51e_dendro_master_new =  '/home/t.yoo/w51/w51_frag_new/dendro/tables/dendro_w51e_master.fits'
+        self.w51n_dendro_master_new =  '/home/t.yoo/w51/w51_frag_new/dendro/tables/dendro_w51n_master.fits'
         #---------------------------------------- W51 catalogs (trimmed for shared use) ----------------------------------------
         self.w51e_dendro_matched_catalog1_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51e_matched1.fits'
         self.w51e_dendro_matched_catalog2_trimmed = '/home/t.yoo/w51/w51_frag/dendro_w51e_matched2.fits'
